@@ -8,7 +8,7 @@ function renderTime(){
             if(year < 1000){
                 year+=1900
             }
-        var date = mydate.getDay();
+        var day = mydate.getDay();
         var month = mydate.getMonth();
         var daym = mydate.getDate();
         var dayarray = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
@@ -43,5 +43,5 @@ function renderTime(){
 
 }
 renderTime();
-    
+
        // TIME END
