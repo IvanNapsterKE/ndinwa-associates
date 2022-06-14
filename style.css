@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0rem;
+    padding: 0rem;
+    font-family: sans-serif, Arial, Helvetica;
+    
+}
+
+.clock_container{
+
+    color:royalblue 
+}
+
+.navbar__links{
+    color: white;
+}
+
+.navbar{
+    background-color: #131313;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.navbar_container{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+#navbar_logo{
+background-color: red;
+background-image: linear-gradient(to top, gray 0%, blue 100%);
+background-size: 100%;
+-webkit-background-clip: text;
+-moz-background-clip: text;
+-webkit-text-fill-color: transparent;
+moz-text-fill-color: transparent;
+display: flex;
+align-items: center;
+cursor: pointer;
+text-decoration: none;
+font-size: 2rem;
+
+}
+/*logo*/
+.ndinwa-logo{
+    margin-right: 0.5rem;
+}
+/*logo end*/
+
+/*navbar__btn*/
+/*button_link*/
+
+
+/*.navbar_toggle*/
+/*#mobile-menu*/
+/*.bar*/
+/*navbar__menu*/
+/*navbar__item*/
