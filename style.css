@@ -53,7 +53,8 @@
 		  z-index:888;
 	}
 	
-	.logo img{
+	.logo{
+		
 		width:70px;
 	}
 	
@@ -226,8 +227,8 @@
 		
 	@media only screen and (max-width:992px){
 		
-		.logo img{
-			width:45px!important;
+		.logo{
+			width:300px!important;
 		}
 		
 		.navbar-scroll {
@@ -380,6 +381,7 @@
 	}
 	
 	 .animation-div{
+		
 		 animation:slide 1.2s ease 1;
 	 } 
 	 
@@ -454,7 +456,7 @@
 	  
 	  
 	  .service-bg{
-		  background:url(./img/service-bg.jpg);
+		  background:url(./img/slider/1.png);
 		  background-position:center center;
 		  background-size:cover;
 		  background-repeat:no-repeat;
@@ -489,13 +491,13 @@
 			color:#fff;
 		}
 		
-		.service-feature-section{
-			background:url(./img/service-bg4.png);
+		/* .service-feature-section{
+			background:url(./img/service-bg4.jpg);
 			 background-position:center center;
 		  background-size:cover;
 		  padding:0px 0px;
 		  margin:50px 0px;
-		}
+		} */
 		
 		.section-heading .section-subtitle{
 			color:rgba(170,170,170,0.8);
@@ -610,10 +612,10 @@ margin-top:15px;
     font-size: 48px;
 }
 	   
-	   .service-feature-section{
+	   /* .service-feature-section{
 		   padding-bottom:80px;
 		   position:relative;
-	   }
+	   } */
 	   
 	   .dark-content{
 		   position:relative;
@@ -983,11 +985,11 @@ margin-top:15px;
 	transition:all 0.6s ease 0s;
 }
 	
-	.logo img{
+	.logo{
 		width:70px;
 	}
 	.footer-logo{
-		width:44px;
+		width:150px;
 	}
 	  
 	  .footer-v1 nav ul li{
@@ -1056,10 +1058,10 @@ padding: 0px 0px 0px 0px!important;
 	  /*----media screen----*/
 	  
 	  @media only screen and (max-width: 786px){
-.service-feature-section {
-    background: url(./img/service-bg1.png)!important;
+/* .service-feature-section {
+    background: url(./img/service-bg1.jpg)!important;
     background-position: center center!important;
-}
+} */
 
 .service-item {
     padding-top: 30px;
